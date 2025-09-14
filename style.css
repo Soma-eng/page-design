@@ -1,105 +1,106 @@
 .header{
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
-    padding: 20px;
+    box-sizing: content-box;
 }
 
 body {
-    box-sizing: border-box;
-    height: 100vh;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+    /* height: 100px; 
+    margin-right: 5px; 
     border-radius: 20px;
-}
-
-.container{
-    background-color: midnightblue;
+    padding: 0px 150px;
+    width: 1000px;
+    align-items: baseline; */
+    background-color: black;
+    align-items: center;
+    display: flex;
 }
 
 .namer {
-font-size: 40px;
-font-weight: 800;}
+font-size: 70px;
+font-weight: 900;
+margin-right: 100px;
+}
 
 .content {
 color: white;
-padding: 30px;
 gap: 20px;
-
+display: flex;
+flex-direction: column;
+padding-right: 100px;
+padding-left: 100px;
+height: 300px;
 }
 
 .content img {
-    width: 250px;
-    height: 100px;
+    width: 450px;
+    height: 220px;
     display: flex;
-    margin-left: auto;
-    margin-top: -95px;
+    margin-left: 690px;
+    margin-bottom: -250px;
+    margin-top: -200px;
 }
 
 .header img {
     width: 100px;
-}
-
-ul {
-    display: flex;
-    gap: 14px;
-    color: beige;
+    padding-left:100px;
+    margin-bottom: 45px;
 }
 
 a {
     color: beige;
-    list-style: none;
+    padding-right: 100px;
 }
 
 .signup {
-    background-color: dodgerblue
-    ;margin-top: 20px;
+    background-color: dodgerblue;
+    margin-top: -5px;
     border-radius: 10px;
     width: 90px;
-    height: 30px;
+    height: 40px;
     color: white;
     font-weight: 400;
+    font-size: 20px;
 }
 
 .information img {
-    width: 120px;
-    height: 120px;
-    gap: 5px;
+    height: 200px;
+    width: 200px;
     align-items: center;
     display: flex;
     border-style: ridge;
     margin-bottom: 10px;
     border-radius: 10px;
     border-color: dodgerblue;
-    gap: 10px;
+    justify-content: space-evenly;
 }
 
 .information {
-    background-color: lightslategray;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    padding: 30px 60px;
+    padding: 0px 250px;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 .text {
     flex-wrap: wrap;
     display: flex;
-    width: 120px;
+    width: 200px;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    margin-left: 10px;
+    margin-left: 15px;
+    font-size: 25px;
 }
 
 .review {
-    background-color: lightsteelblue;
-    padding: 30px 60px;
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 230px;
+    font-size: 40px;
+    padding :90px 250px;
 }
 
 .koko {
@@ -112,25 +113,24 @@ a {
 }
 
 .name {
-    font-size: small;
+    font-size: 28px;
     font-weight: bolder;
     margin-left: auto;
-    margin-bottom: 70px;
-
+    padding-bottom: 30px;
 }
 
-.footer {
+.leg {
     background-color: dodgerblue;
     justify-content: space-between;
     display: flex;
     padding: 10px 40px;
     border-style: solid;
     color: white;
-    margin: 50px 90px;
+    margin: 50px 80px;
     box-sizing: content-box;
-    height: 50px;
+    height: 85px;
     border-radius: 5px;
-    margin-bottom: 40px;
+    font-size: 30px;
 }
 
 .sign-up {
@@ -138,18 +138,27 @@ a {
     border-style: ridge;
     border-color: white;
     border-radius: 10px;
-    width: 90px;
-    height: 30px;
-    background-color: dodgerblue;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 } 
 
 .end {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
-.BC {
-    background-color: wheat;
+.background {
+    background-color:white;
+    width: 100%;
+    box-sizing: content-box;
+    padding: 50px 0;
+    left: 50%;
+    right: 50px;
 }
 
 .needs {
@@ -159,9 +168,47 @@ a {
 
 .call {
     font-weight: bolder;
+    background-color: dodgerblue;
 }
 
 .sign {
     font-weight: lighter;
-    font-size: x-small;
+    font-size: small;
 }
+
+.things {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.motto {
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+.container {
+    background-color: #1F2937;
+    box-sizing: content-box;
+    width: 85%;
+    margin-top: -10px;
+    margin: auto;
+}
+
+.footer {
+display: flex;
+justify-content: center;
+background-color: #1F2937;
+height: 80px;
+color: white;
+padding: 20px 0px;
+box-sizing: border-box;
+margin-bottom: -50px;
+font-size: 30px;
+}
+
